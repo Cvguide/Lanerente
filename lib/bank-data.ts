@@ -129,7 +129,7 @@ export const bankRates: BankRate[] = [
     establishmentFee: 0,
     termFee: 30,
     features: ["OBOS-medlemsfordeler", "Boligkjøpsforsikring", "Rådgivning"],
-    url: "https://obosbanken.no",
+    url: "https://www.obos.no/bank",
     source: "obosbanken.no",
   },
 
@@ -154,8 +154,8 @@ export const bankRates: BankRate[] = [
     id: "instabank",
     name: "Instabank",
     logo: "/instabank-logo.jpg",
-    nominalRate: 4.95,
-    effectiveRate: 5.08,
+    nominalRate: 6.49,
+    effectiveRate: 7.08,
     maxLtv: 85,
     maxDebtRatio: 5,
     minEquity: 15,
@@ -163,7 +163,7 @@ export const bankRates: BankRate[] = [
     establishmentFee: 0,
     termFee: 0,
     features: ["Heldigital", "Rask behandling", "Lendo-partner"],
-    url: "https://instabank.no",
+    url: "https://instabank.no/lan-med-sikkerhet",
     source: "Lendo",
   },
   {
@@ -179,7 +179,7 @@ export const bankRates: BankRate[] = [
     establishmentFee: 0,
     termFee: 40,
     features: ["Personlig veiledning", "Lendo-partner"],
-    url: "https://jfrb.no",
+    url: "https://www.jbf.no/lan/boliglan",
     source: "Lendo",
   },
   {
@@ -195,7 +195,7 @@ export const bankRates: BankRate[] = [
     establishmentFee: 0,
     termFee: 35,
     features: ["Lokalt eierskap", "Gode betingelser", "Lendo-partner"],
-    url: "https://rfrb.no",
+    url: "https://www.rsbank.no/",
     source: "Lendo",
   },
   {
@@ -227,7 +227,7 @@ export const bankRates: BankRate[] = [
     establishmentFee: 0,
     termFee: 40,
     features: ["LOfavør-rabatt", "Kundeutbytte", "Lendo-partner"],
-    url: "https://sb1hv.no",
+    url: "https://www.sparebank1.no/nb/hallingdal/privat.html",
     source: "Lendo",
   },
   {
@@ -243,7 +243,7 @@ export const bankRates: BankRate[] = [
     establishmentFee: 0,
     termFee: 35,
     features: ["Lokalt fokus", "LOfavør-rabatt", "Lendo-partner"],
-    url: "https://sfrh.no",
+    url: "https://www.sparebank1.no/nb/ringerike-hadeland/privat.html",
     source: "Lendo",
   },
   {
@@ -259,17 +259,17 @@ export const bankRates: BankRate[] = [
     establishmentFee: 0,
     termFee: 40,
     features: ["Trøndelag-basert", "Kundeutbytte", "Lendo-partner"],
-    url: "https://sparebank1.no/smn",
+    url: "https://www.sparebank1.no/nb/smn/privat.html",
     source: "Lendo",
   },
 
   // Andre SpareBank 1-banker
   {
     id: "sb1-sr",
-    name: "SpareBank 1 SR-Bank",
+    name: "SpareBank 1 Sør-Norge",
     logo: "/sparebank-1-sr-bank-logo.jpg",
-    nominalRate: 4.85,
-    effectiveRate: 4.98,
+    nominalRate: 4.99,
+    effectiveRate: 5.17,
     maxLtv: 90,
     maxDebtRatio: 5,
     minEquity: 10,
@@ -277,7 +277,7 @@ export const bankRates: BankRate[] = [
     establishmentFee: 0,
     termFee: 45,
     features: ["Rogaland-basert", "Kundeutbytte", "LOfavør-rabatt"],
-    url: "https://sparebank1.no/sr-bank",
+    url: "https://www.sparebank1.no/nb/sor-norge/privat.html",
     source: "sparebank1.no",
   },
   {
@@ -293,7 +293,7 @@ export const bankRates: BankRate[] = [
     establishmentFee: 0,
     termFee: 40,
     features: ["Innlandet og Østfold", "Kundeutbytte", "LOfavør-rabatt"],
-    url: "https://sparebank1.no/ostlandet",
+    url: "https://www.sparebank1.no/nb/ostlandet/privat.html",
     source: "sparebank1.no",
   },
 
@@ -465,15 +465,6 @@ export const forumRates: ForumRate[] = [
     date: "2026-01-02",
     source: "Klikk.no",
     sourceUrl: "https://www.klikk.no/bolig/",
-  },
-  {
-    bank: "Danske Bank",
-    rate: 4.78,
-    loanAmount: 3600000,
-    ltv: 75,
-    date: "2026-01-05",
-    source: "Diskusjon.no",
-    sourceUrl: "https://www.teleblad.com/okonomi/",
   },
   {
     bank: "Handelsbanken",
