@@ -298,22 +298,7 @@ export const bankRates: BankRate[] = [
   },
 
   // Andre banker
-  {
-    id: "kron",
-    name: "Kron",
-    logo: "/kron-bank-logo.jpg",
-    nominalRate: 4.72,
-    effectiveRate: 4.82,
-    maxLtv: 75,
-    maxDebtRatio: 5,
-    minEquity: 25,
-    processingFee: 0,
-    establishmentFee: 0,
-    termFee: 0,
-    features: ["Lav rente", "Heldigital", "Krever høy egenkapital"],
-    url: "https://kron.no",
-    source: "kron.no",
-  },
+
   {
     id: "landkreditt",
     name: "Landkreditt Bank",
@@ -434,7 +419,7 @@ export const forumRates: ForumRate[] = [
     ltv: 70,
     date: "2026-01-05",
     source: "Finansavisen forum",
-    sourceUrl: "https://forum.teleblad.com/viewforum.php?f=54",
+    sourceUrl: "https://www.finansavisen.no/forum",
   },
   {
     bank: "Nordea",
@@ -692,11 +677,5 @@ export const rateChanges: RateChange[] = [
     newRate: 4.74,
     announcement: "SpareBank 1 Hallingdal Valdres tilbyr markedets laveste rente",
   },
-  {
-    bank: "Kron",
-    date: "2025-12-01",
-    change: -0.1,
-    newRate: 4.72,
-    announcement: "Kron senker renten for kunder med høy egenkapital",
-  },
+
 ]
