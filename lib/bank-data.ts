@@ -19,23 +19,6 @@ export interface BankRate {
 export const bankRates: BankRate[] = [
   // Store nasjonale banker
   {
-    id: "dnb",
-    name: "DNB",
-    logo: "/dnb-bank-logo.jpg",
-    nominalRate: 4.99,
-    effectiveRate: 5.12,
-    maxLtv: 90,
-    maxDebtRatio: 5,
-    minEquity: 10,
-    processingFee: 0,
-    establishmentFee: 0,
-    termFee: 50,
-    features: ["Fleksibel nedbetaling", "Digital signering", "Stor bank"],
-    url: "https://dnb.no",
-    source: "dnb.no",
-  },
-  const banks = [
-  {
     id: "askim-spydeberg",
     name: "Askim & Spydeberg Sparebank",
     logo: "/askim-spydeberg-logo.jpg",
