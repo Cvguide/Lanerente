@@ -69,6 +69,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Helhetlig digital bank",
       "Forutsigbare vilkår",
@@ -88,6 +89,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Automatisk prising",
       "Fullt digital bank",
@@ -107,6 +109,7 @@ export const bankRates: BankRate[] = [
     minEquity: 25,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Norges største bank",
       "Bredt produkttilbud",
@@ -126,6 +129,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Sterk lokal tilstedeværelse",
       "Personlig kundebehandling",
@@ -145,6 +149,7 @@ export const bankRates: BankRate[] = [
     minEquity: 25,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Fast personlig rådgiver",
       "Langsiktig kundefokus",
@@ -164,6 +169,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Medlemsbank",
       "Trygge og enkle produkter",
@@ -183,6 +189,7 @@ export const bankRates: BankRate[] = [
     minEquity: 45,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Svært lave renter",
       "Fordeler for offentlig ansatte",
@@ -202,6 +209,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Solid medlemsbank",
       "God på eiendom og bolig",
@@ -221,6 +229,7 @@ export const bankRates: BankRate[] = [
     minEquity: 25,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Nordisk storbank",
       "Avanserte digitale tjenester",
@@ -240,6 +249,7 @@ export const bankRates: BankRate[] = [
     minEquity: 45,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Digital sparebank",
       "Lav kostnadsstruktur",
@@ -259,6 +269,7 @@ export const bankRates: BankRate[] = [
     minEquity: 10,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Høy maksimal belåning",
       "Sterk investeringsplattform",
@@ -278,6 +289,7 @@ export const bankRates: BankRate[] = [
     minEquity: 40,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Spesialisert på nybygg",
       "God belåningsgrad",
@@ -297,6 +309,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Fordeler for OBOS-medlemmer",
       "Forutsigbare renter",
@@ -316,6 +329,7 @@ export const bankRates: BankRate[] = [
     minEquity: 40,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Enkel og moderne bank",
       "Tydelig prising",
@@ -335,6 +349,7 @@ export const bankRates: BankRate[] = [
     minEquity: 45,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Sterk lokalbank",
       "Personlig rådgivning",
@@ -354,6 +369,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Fullverdig digital bank",
       "Åpen og transparent prising",
@@ -373,6 +389,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Sterk lokal SpareBank 1-bank",
       "Personlig rådgivning",
@@ -392,6 +409,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Sterk regional bank",
       "God lokal tilstedeværelse",
@@ -411,6 +429,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Sterk regional bank",
       "Personlig rådgiver",
@@ -430,6 +449,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Stor regional sparebank",
       "Bredt tilbud til privatkunder",
@@ -449,6 +469,7 @@ export const bankRates: BankRate[] = [
     minEquity: 10,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Høy maksimal belåning",
       "Sterk lokalbank",
@@ -468,6 +489,7 @@ export const bankRates: BankRate[] = [
     minEquity: 10,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Høy belåningsgrad",
       "Sterk regional bank",
@@ -487,6 +509,7 @@ export const bankRates: BankRate[] = [
     minEquity: 30,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0,
     features: [
       "Helhetlig økonomi og pensjon",
       "Stabil og solid bank",
