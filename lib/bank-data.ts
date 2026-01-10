@@ -494,9 +494,6 @@ export const bankRates: BankRate[] = [
     source: "Prisliste"
   }
 ];
-
-]
-
 export interface FinancingRequirement {
   title: string
   description: string
@@ -832,5 +829,4 @@ export const rateChanges: RateChange[] = [
     newRate: 4.74,
     announcement: "SpareBank 1 Hallingdal Valdres tilbyr markedets laveste rente",
   },
-
 ]
