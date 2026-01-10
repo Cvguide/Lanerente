@@ -29,6 +29,7 @@ export const bankRates: BankRate[] = [
     minEquity: 50,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0
     features: [
       "Lokal sparebank",
       "Personlig rådgivning",
@@ -48,6 +49,7 @@ export const bankRates: BankRate[] = [
     minEquity: 45,
     processingFee: 0,
     establishmentFee: 0,
+    termFee: 0
     features: [
       "Spesialisert på boliglån",
       "Digital og enkel prosess",
