@@ -35,7 +35,7 @@ export function BankComparison() {
     const annuity =
       (amount * (monthlyRate * Math.pow(1 + monthlyRate, numberOfPayments))) /
       (Math.pow(1 + monthlyRate, numberOfPayments) - 1)
-    return annuity + bank.termFee
+    return annuity 
   }
 
   const formatCurrency = (value: number) => {
