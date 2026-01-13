@@ -28,6 +28,9 @@ export default function RootLayout({
           <a href="/om-oss" className="underline">
             Om oss
           </a>
+          <a href="/personvern" className="underline">
+            Personvern
+          </a>
         </footer>
         <Analytics />
       </body>
