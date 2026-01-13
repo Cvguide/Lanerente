@@ -25,10 +25,10 @@ export default function RootLayout({
         {children}
         {/* Footer */}
         <footer className="border-t mt-16 py-6 text-center text-sm">
-          <a href="/om-oss" className="underline">
+          <a href="/om-oss" className="underline mr-4">
             Om oss   
           </a>
-          <a href=" /personvern" className="underline">
+          <a href="/personvern" className="underline">
             Personvern
           </a>
         </footer>
