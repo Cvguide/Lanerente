@@ -9,7 +9,7 @@ export default function OmOssPage() {
       <h1 className="text-3xl font-bold mb-6">Om oss</h1>
 
       <p className="mb-4">
-        lanerente.no er en uavhengig informasjonsside som har som mål å gjøre det
+        Lanerente.no er en uavhengig informasjonsside som har som mål å gjøre det
         enklere å forstå boliglån, renter og privatøkonomi i Norge.
       </p>
 
@@ -26,7 +26,7 @@ export default function OmOssPage() {
       </p>
 
       <p className="mb-4">
-        Har du spørsmål eller innspill, kan du ta kontakt på{"46899799 "}
+        Har du spørsmål eller innspill, kan du ta kontakt på{" 46899799 / "}
         <a href="mailto:kontakt@lanerente.no" className="underline">
           halvor.ringen@hotmail.com
         </a>.
