@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useMemo } from "react"
+import { track } from "@vercel/analytics"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -137,7 +138,12 @@ export function BankComparison() {
 
                     <div className="flex flex-col sm:flex-row gap-2 lg:w-auto">
                       <Button variant="outline" size="sm" asChild>
-                        <a href={bank.url} target="_blank" rel="noopener noreferrer">
+                        <a
+                          href={bank.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={() => track("bank_link_click", { bank: bank.name })}
+                        >
                           Til banken
                           <ExternalLink className="ml-2 h-3 w-3" />
                         </a>

@@ -1,4 +1,7 @@
+"use client"
+
 import Link from "next/link"
+import { track } from "@vercel/analytics"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Shield, TrendingDown, FileCheck } from "lucide-react"
 
@@ -17,7 +20,10 @@ export function Hero() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Button size="lg" variant="secondary" asChild>
-                <Link href="#kalkulator">
+                <Link
+                  href="#kalkulator"
+                  onClick={() => track("hero_cta_click", { cta: "calculator" })}
+                >
                   Start kalkulator
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
@@ -28,7 +34,12 @@ export function Hero() {
                 className="bg-transparent border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
                 asChild
               >
-                <Link href="#sammenlign">Sammenlign banker</Link>
+                <Link
+                  href="#sammenlign"
+                  onClick={() => track("hero_cta_click", { cta: "compare_banks" })}
+                >
+                  Sammenlign banker
+                </Link>
               </Button>
             </div>
           </div>

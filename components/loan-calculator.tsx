@@ -16,7 +16,7 @@ export function LoanCalculator() {
   const [annualIncome, setAnnualIncome] = useState(600000)
   const [existingDebt, setExistingDebt] = useState(0)
   const [loanTermYears, setLoanTermYears] = useState(25)
-  const [interestRate, setInterestRate] = useState(4.89)
+  const [interestRate, setInterestRate] = useState(5.25)
   const [householdType, setHouseholdType] = useState<"single" | "couple">("single")
   const [childrenUnder6, setChildrenUnder6] = useState(0)
   const [children6to13, setChildren6to13] = useState(0)
